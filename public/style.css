@@ -1,0 +1,520 @@
+
+
+
+
+
+
+@font-face {
+    font-family: 'inter';
+    src: local('inter'),
+        url(assets/Inter-Regular.ttf) format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'inter';
+    src: local('inter'),
+        url(assets/Inter-SemiBold.ttf) format("truetype");
+    font-weight: 600;
+}
+
+
+body {
+    font-family: 'inter';
+    font-weight: 400;
+    letter-spacing: -0.3px;
+}
+
+.nav {
+    background-color: #404040;
+    color: #fff;
+
+    padding: 56px 0 56px 68px;
+
+    border-radius: 2px;
+    
+}
+
+.nav h3 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 14px;
+}
+
+.nav p {
+    font-size: 16px;
+    margin-bottom: 14px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+.width {
+    width: 1023px;
+    background-color: #E7E3E3;
+    margin: 0 auto;
+    padding-top: 131px;
+    padding-bottom: 614px;
+    margin-top: 8px;
+}
+
+.width h2 {
+    font-weight: 400;
+    font-size: 48px;
+    margin-left: 70px;
+    margin-right: 66px;
+}
+
+
+
+
+
+
+
+
+
+
+/* trio one */
+
+.trio-1 {
+    margin-top: 206px;
+    margin-left: 148px;
+}
+
+.trio-1 a {
+    color: #000;
+    text-decoration: none;
+}
+
+.trio-1 h4, .trio-1 h5 {
+    margin: 0;
+    font-weight: 400;
+}
+
+.img-division {
+    width: 386px;
+    height: 278px;
+    background-image: url("assets/division2.webp");
+    background-size: cover;
+    display: inline-block;
+
+}
+
+.trio-1 h5 {
+    position: relative;
+    font-size: 24px;
+    margin-left: 37px;
+    width: 311px;
+    display: inline-block;
+    top: 25px;
+}
+
+.trio-1 h4 {
+    width: 350px;
+    font-size: 32px;
+    margin-top: 54px;
+    margin-left: 33px;
+    display: inline-block;
+}
+
+.trio-1 h4 span {
+    color: #2E5667;
+}
+
+/* .trio-1 .tag {
+    display: inline-block;
+    background-color: #343333;
+    padding: 3px 12px;
+    border-radius: 3px;
+}
+
+.trio-1 .tag p {
+    font-size: 18px;
+    color: #E0E0E1;
+} */
+
+.trio-1 .tags {
+    display: inline-block;
+    width: 235px;
+    margin-left: 50px;
+    position: relative;
+    bottom: 23px;
+}
+
+.trio-1 .tag {
+    display: inline-block;
+    background-color: #343333;
+    padding: 3px 12px;
+    border-radius: 3px;
+    font-size: 18px;
+    color: #E0E0E1;
+    margin: 0;
+    /* margin: 14px 12px; */
+}
+
+.trio-1 .tag:nth-child(1) {
+    margin-right: 12px;
+    margin-bottom: 14px;
+}
+
+.trio-1 .tag:nth-child(3) {
+    width: 187px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* trio two */
+
+.trio-2 {
+    margin-top: 189px;
+    margin-left: 134px;
+}
+
+.trio-2 a {
+    color: #000;
+    text-decoration: none;
+}
+
+.trio-2 h4, .trio-2 h5 {
+    font-weight: 400;
+}
+
+.trio-2 h4 {
+    display: inline-block;
+    font-size: 32px;
+    width: 486px;
+    margin: 0;
+}
+
+.trio-2 h4 span {
+    color: #441D76;
+}
+
+.trio-2 h5 {
+    display: inline-block;
+    font-size: 24px;
+    width: 482px;
+    margin-top: 69px;
+    margin-left: 23px;
+}
+
+.trio-2 .tags {
+    display: inline-block;
+    width: 181px;
+    margin-left: 50px;
+    position: relative;
+    bottom: 154px;
+}
+
+.trio-2 .tag {
+    display: inline-block;
+    background-color: #343333;
+    padding: 3px 12px;
+    border-radius: 3px;
+    font-size: 18px;
+    color: #E0E0E1;
+    margin: 0;
+    margin-bottom: 14px;
+}
+
+.trio-2 .tag:nth-child(2) {
+    width: 181px;
+}
+
+.img-cwzomb {
+    width: 270px;
+    height: 189px;
+    background-image: url("assets/cwzombies.png");
+    background-size: cover;
+    display: inline-block;
+    margin-left: 42px;
+    position: relative;
+    top: 27px;
+}
+
+
+
+
+
+
+
+
+/* trio 3 */
+
+.trio-3 {
+    margin-top: 80px;
+    margin-left: 164px;
+}
+
+.trio-3 a {
+    color: #000;
+    text-decoration: none;
+}
+
+.trio-3 h4, .trio-3 h5 {
+    margin: 0;
+    font-weight: 400;
+}
+
+.img-acrossing {
+    width: 244px;
+    height: 189px;
+    background-image: url("assets/acrossing.webp");
+    background-size: cover;
+    display: inline-block;
+    background-position: center center;
+}
+
+.trio-3 .righthand {
+    display: inline-block;
+    width: 392px;
+    /* border: 1px solid black; */
+    position: relative;
+    top: 40px;
+}
+
+
+
+.trio-3 h5 {
+    position: relative;
+    font-size: 22px;
+    top: 25px;
+}
+
+.trio-3 h4 {
+    display: inline-block;
+    width: 387px;
+    font-size: 40px;
+    margin-right: 44px;
+}
+
+.trio-3 h4 span {
+    color: #2E5667;
+}
+
+.trio-3 .tags {
+    display: inline-block;
+    width: 181px;
+    margin-top: 105px;
+    margin-left: 50px;
+    position: relative;
+    left: 450px;
+}
+
+.trio-3 .tag {
+    display: inline-block;
+    background-color: #343333;
+    padding: 3px 12px;
+    border-radius: 3px;
+    font-size: 18px;
+    color: #E0E0E1;
+    margin: 0;
+    margin-bottom: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.story-minecraft {
+    width: 387px;
+    margin-left: 131px;
+    margin-top: 245px;
+    display: inline-block;
+}
+
+.img-minecraft {
+    width: 244px;
+    height: 189px;
+    background-image: url("assets/minecraft.jpeg");
+    background-size: cover;
+    display: inline-block;
+    background-position: center center;
+
+    margin-left: 79px;
+}
+
+.story-minecraft h4, .story-minecraft h5 {
+    font-weight: 400;
+}
+
+.story-minecraft h4 {
+    font-size: 26px;
+    width: 377px;
+}
+
+.story-minecraft h5 {
+    font-size: 18px;
+    width: 374px;
+}
+
+
+.story-minecraft .tags {
+    display: inline-block;
+    width: 181px;
+    margin-top: 31px;
+    position: relative;
+}
+
+.story-minecraft .tag {
+    display: inline-block;
+    background-color: #343333;
+    padding: 3px 12px;
+    border-radius: 3px;
+    font-size: 18px;
+    color: #E0E0E1;
+    margin: 0;
+    margin-bottom: 14px;
+}
+
+
+
+
+
+.story-minecraft, .story-titanfall {
+    vertical-align: top;
+}
+
+.story-titanfall {
+    width: 388px;
+    display: inline-block;
+    margin-left: 52px;
+    margin-top: 245px;
+}
+
+.img-titanfall {
+    width: 244px;
+    height: 189px;
+    background-image: url("assets/titanfall2.jpeg");
+    background-size: cover;
+    display: inline-block;
+    background-position: center center;
+
+    margin-left: 100px;
+}
+
+.story-titanfall h4, .story-titanfall h5 {
+    font-weight: 400;
+}
+
+.story-titanfall h4 {
+    font-size: 26px;
+    width: 377px;
+}
+
+.story-titanfall h5 {
+    font-size: 18px;
+    width: 374px;
+}
+
+
+.story-titanfall .tags {
+    display: inline-block;
+    width: 181px;
+    margin-top: 31px;
+    position: relative;
+}
+
+.story-titanfall .tag {
+    display: inline-block;
+    background-color: #343333;
+    padding: 3px 12px;
+    border-radius: 3px;
+    font-size: 18px;
+    color: #E0E0E1;
+    margin: 0;
+    margin-bottom: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.img-facebook {
+    background-image: url("assets/undraw_visionary_technology_re_jfp7.svg");
+    width: 170px;
+    height: 110px;
+    background-size: cover;
+
+    margin-top: 210px;
+    margin-left: 320px;
+
+    display: inline-block;
+    vertical-align: top;
+}
+
+.facebook {
+    display: inline-block;
+    margin-top: 117px;
+    margin-left: 520px;
+    vertical-align: top;
+}
+
+.facebook p:nth-child(1) {
+
+
+    margin-top: 80px;
+    margin-bottom: 35px;
+
+    font-size: 23px;
+}
+
+.facebook p:nth-child(2), .facebook p:nth-child(3) {
+
+    width: 432px;
+
+    margin-bottom: 23px;
+}
+
+.facebook-button {
+
+    display: inline-block;
+
+    margin-left: 173px;
+
+}
+
+.facebook-button a {
+    color: #fff;
+    text-decoration: none;
+
+    /* style goes here so that a link hover can cover the whole button  */
+    padding: 3px 12px;
+    background-color: #343333;
+    border-radius: 3px;
+
+}
+
+
+
+
+
